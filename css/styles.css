@@ -647,7 +647,8 @@ OUR PORTFOLIO PAGE
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 48px;}
+        width: calc((100% - 24px) / 2);
+    }
 
 .ourportfolio{}
 }
