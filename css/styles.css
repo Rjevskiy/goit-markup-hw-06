@@ -720,9 +720,8 @@ FOOTER PAGE
 .footer-container {
     background: #2e2f42;
     color: #FFFFFF;
-    max-width: 1158px;
-    padding: 0 0;
-    margin: 0 auto;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .div-footer {
@@ -734,7 +733,7 @@ FOOTER PAGE
 
 .footer-l {
     max-width: 264px;
-    padding-top: 96px;
+    text-align: center;
     padding-bottom: 72px;
     margin: auto;
 }
@@ -749,6 +748,7 @@ FOOTER PAGE
     display: inline-block;
     padding-bottom: 16px;
     text-transform: uppercase;
+    align-items: center;
 }
 
 .footer-logo-raleway {  
@@ -759,6 +759,7 @@ FOOTER PAGE
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    
 }
 
 .foter-ul {
@@ -849,3 +850,15 @@ FOOTER PAGE
 }
 
 .footer-btn-icon {}
+
+
+
+
+
+@media screen and (min-width: 1158px) {
+.footer-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+}
