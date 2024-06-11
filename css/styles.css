@@ -726,10 +726,7 @@ FOOTER PAGE
 
 .div-footer {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: baseline;
-}   
+    flex-direction: column;}   
 
 .footer-l {
     max-width: 264px;
@@ -927,6 +924,34 @@ FOOTER PAGE
 
 @media screen and (min-width: 1158px) {
 .footer-container {
+    width: 1158px;
     padding-top: 100px;
-    padding-bottom: 100px;}
+    padding-bottom: 100px;
+    margin: auto;}
 
+.div-footer{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    row-gap: 0;
+    column-gap: 0;
+}
+
+.footer-l{
+    margin-left: 0;
+    padding-left: 16px;
+    margin-right: 120px;
+}
+
+.footer-i{
+    margin-right: 80px;
+}
+
+.footer-div-subscribe{
+    margin-left: 0;
+    padding-right: 16px;
+}
+
+.foter-form-input{
+    opacity: 1;
+}
+}
